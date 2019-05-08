@@ -1,0 +1,2 @@
+scalac -d bin src/main/scala/LeftJoin.scala
+scala -cp bin LeftJoin "data_files/employee_names.csv" "data_files/employee_pay.csv" "data_files/leftjoin_scala_output.csv"

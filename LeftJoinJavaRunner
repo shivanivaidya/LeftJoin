@@ -1,0 +1,2 @@
+javac -d bin src/main/java/LeftJoin.java
+java -cp bin LeftJoin "data_files/employee_names.csv" "data_files/employee_pay.csv" "data_files/leftjoin_java_output.csv"
